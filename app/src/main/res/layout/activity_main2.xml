@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/group3" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/imageView14"
+        android:layout_alignBottom="@+id/imageView14"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="240dp"
+        app:srcCompat="@drawable/badagola"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView14"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="225dp"
+        app:srcCompat="@drawable/pointre" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="273dp"
+        android:layout_height="120dp"
+        android:layout_alignTop="@+id/imageView14"
+        android:layout_alignBottom="@+id/imageView14"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="556dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="55dp"
+        android:onClick="select"
+        app:srcCompat="@drawable/show" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="318dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="48dp"
+        android:alpha="0.6"
+        android:background="@drawable/result"
+        android:paddingTop="10dp"
+        android:text="SPIN RESULT"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="22dp" />
+
+</RelativeLayout>

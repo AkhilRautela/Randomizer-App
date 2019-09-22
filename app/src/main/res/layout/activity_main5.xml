@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:id="@+id/linearLayout1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/group3">
+
+        <TextView
+            android:id="@+id/textViewPhoneNo"
+            android:layout_width="wrap_content"
+            android:layout_height="91dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="96dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="94dp"
+            android:layout_marginBottom="0dp"
+            android:text="ENTER PHONE NUMBER : "
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_alignParentTop="true" />
+
+    <EditText
+        android:id="@+id/editTextPhoneNo"
+        android:layout_width="326dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="552dp"
+        android:background="@drawable/rect2"
+        android:phoneNumber="true"
+        android:textAlignment="center">"</EditText>
+
+    <TextView
+        android:id="@+id/textViewSMS"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="421dp"
+        android:textAlignment="center"
+        android:text="ENTER SMS MESSAGE : "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+       />
+
+    <EditText
+        android:id="@+id/editTextSMS"
+        android:layout_width="325dp"
+        android:layout_height="86dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="308dp"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:background="@drawable/rect2"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="wrap_content"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="142dp"
+        android:text="SEND" />
+
+</RelativeLayout>
